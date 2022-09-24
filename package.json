@@ -1,0 +1,44 @@
+{
+  "name": "twspaces-dl",
+  "version": "0.1.0",
+  "description": "CLI app to download Twitter Spaces",
+  "type": "module",
+  "bin": "./dist/cli.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit && xo",
+    "lint:fix": "tsc --noEmit && xo --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuseisui/twspaces-dl.git"
+  },
+  "keywords": [
+    "twitter",
+    "twitter-spaces"
+  ],
+  "author": "Yusei Yamamoto <yuseiyamamoto.dev@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuseisui/twspaces-dl/issues"
+  },
+  "homepage": "https://github.com/yuseisui/twspaces-dl#readme",
+  "packageManager": "pnpm@7.12.2",
+  "devDependencies": {
+    "@enjoyjs/tsconfig": "^4.0.0",
+    "@types/cli-progress": "^3.11.0",
+    "@types/node": "^16.11.60",
+    "@types/xo": "^0.39.3",
+    "typescript": "^4.8.3",
+    "xo": "^0.52.3"
+  },
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "commander": "^9.4.0",
+    "eloquent-ffmpeg": "^0.14.0",
+    "twspaces": "^1.3.0"
+  }
+}
