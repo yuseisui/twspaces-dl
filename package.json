@@ -1,6 +1,6 @@
 {
   "name": "twspaces-dl",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "CLI app to download Twitter Spaces",
   "type": "module",
   "bin": "./dist/cli.js",
