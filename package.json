@@ -30,7 +30,7 @@
   "devDependencies": {
     "@enjoyjs/tsconfig": "^4.0.0",
     "@types/cli-progress": "^3.11.0",
-    "@types/node": "^16.11.64",
+    "@types/node": "^16.11.65",
     "@types/xo": "^0.39.3",
     "typescript": "^4.8.4",
     "xo": "^0.52.3"
