@@ -26,7 +26,7 @@
     "url": "https://github.com/yuseisui/twspaces-dl/issues"
   },
   "homepage": "https://github.com/yuseisui/twspaces-dl#readme",
-  "packageManager": "pnpm@7.16.1",
+  "packageManager": "pnpm@7.17.0",
   "devDependencies": {
     "@enjoyjs/tsconfig": "^4.0.0",
     "@types/cli-progress": "^3.11.0",
