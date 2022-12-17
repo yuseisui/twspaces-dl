@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@enjoyjs/tsconfig': ^4.0.0
   '@types/cli-progress': ^3.11.0
-  '@types/node': ^16.18.8
+  '@types/node': ^16.18.9
   '@types/xo': ^0.39.3
   cli-progress: ^3.11.2
   commander: ^9.4.1
