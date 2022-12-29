@@ -8,7 +8,7 @@ specifiers:
   cli-progress: ^3.11.2
   commander: ^9.4.1
   eloquent-ffmpeg: ^0.14.0
-  twspaces: ^1.3.0
+  twspaces: ^1.3.1
   typescript: ^4.9.4
   xo: ^0.53.1
 
@@ -16,7 +16,7 @@ dependencies:
   cli-progress: 3.11.2
   commander: 9.4.1
   eloquent-ffmpeg: 0.14.0
-  twspaces: 1.3.0
+  twspaces: 1.3.1
 
 devDependencies:
   '@enjoyjs/tsconfig': 4.0.0
@@ -394,11 +394,12 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
-  /axios/0.27.2:
-    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
+  /axios/1.2.2:
+    resolution: {integrity: sha512-bz/J4gS2S3I7mpN/YZfGFTqhXTYzRho8Ay38w2otuuDR322KzFIWm/4W2K6gIwvWaws5n+mnb7D1lN9uD+QH6Q==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
+      proxy-from-env: 1.1.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -2248,6 +2249,10 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
+  /proxy-from-env/1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+    dev: false
+
   /punycode/2.1.1:
     resolution: {integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==}
     engines: {node: '>=6'}
@@ -2590,10 +2595,10 @@ packages:
       typescript: 4.9.4
     dev: true
 
-  /twspaces/1.3.0:
-    resolution: {integrity: sha512-hk7oohxwhmOwHpJQcnCsXw3unxmoFvojKZHAvNfhfY16T7T3EBxUFyg7GBOqD+RLuJEQ2Yby+HkJfrXBfukdnA==}
+  /twspaces/1.3.1:
+    resolution: {integrity: sha512-aWiWyEO2O+AsiKZwJPTQ1Tq1JaSAUFevuRo9iVQcYNFBZ95LPsHy08UromuFYgOPqw/ad1kOygT6Yj9tSgF0zQ==}
     dependencies:
-      axios: 0.27.2
+      axios: 1.2.2
     transitivePeerDependencies:
       - debug
     dev: false
