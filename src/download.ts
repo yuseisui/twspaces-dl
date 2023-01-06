@@ -36,8 +36,17 @@ export const download = async (url: string, options?: DownloadOptions) => {
 		args: ['-loglevel', 'quiet'],
 	});
 
+	const coverImage =
+		metadata.creator_results.result.legacy.profile_image_url_https.replace(
+			/_[A-Za-z\d]+(\.[A-Za-z\d]+)$/,
+			'$1',
+		);
+
+	cmd.input(coverImage);
+
 	cmd.output(outFile)
 		.codec('copy')
+		.args('-disposition:v:0', 'attached_pic')
 		.metadata({
 			title: metadata.title,
 			artist: metadata.creator_results.result.legacy.name,
