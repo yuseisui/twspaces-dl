@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/naming-convention */
+
 import {open} from 'node:fs/promises';
 import {ffmpeg, LogLevel} from 'eloquent-ffmpeg';
 import {findSpaceByUrl, getLiveStreamMetadata} from 'twspaces';
@@ -39,8 +41,9 @@ export const download = async (url: string, options?: DownloadOptions) => {
 		.metadata({
 			title: metadata.title,
 			artist: metadata.creator_results.result.legacy.name,
+			album: 'Twitter Spaces',
 			date: new Date(metadata.created_at).toISOString(),
-			// eslint-disable-next-line @typescript-eslint/naming-convention
+			creation_time: new Date().toISOString(),
 			episode_id: metadata.rest_id,
 		});
 
