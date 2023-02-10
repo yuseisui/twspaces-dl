@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@enjoyjs/tsconfig': ^4.0.0
   '@types/cli-progress': ^3.11.0
-  '@types/node': ^18.11.18
+  '@types/node': ^18.13.0
   '@types/xo': ^0.39.5
   cli-progress: ^3.11.2
   commander: ^9.5.0
@@ -21,7 +21,7 @@ dependencies:
 devDependencies:
   '@enjoyjs/tsconfig': 4.0.0
   '@types/cli-progress': 3.11.0
-  '@types/node': 18.11.18
+  '@types/node': 18.13.0
   '@types/xo': 0.39.5
   typescript: 4.9.5
   xo: 0.53.1
@@ -114,7 +114,7 @@ packages:
   /@types/cli-progress/3.11.0:
     resolution: {integrity: sha512-XhXhBv1R/q2ahF3BM7qT5HLzJNlIL0wbcGyZVjqOTqAybAnsLisd7gy1UCyIqpL+5Iv6XhlSyzjLCnI2sIdbCg==}
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 18.13.0
     dev: true
 
   /@types/eslint/7.29.0:
@@ -147,8 +147,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/18.13.0:
+    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
