@@ -20,4 +20,4 @@ program
 		}
 	});
 
-await program.parseAsync();
+void program.parseAsync();
