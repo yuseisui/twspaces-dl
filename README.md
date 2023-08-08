@@ -2,6 +2,9 @@
 
 CLI app to download Twitter Spaces
 
+> **Warning**
+> This app no longer works due to changes in X (formerly Twitter) API.
+
 ## Requirements
 
 - [FFmpeg](https://ffmpeg.org/)
